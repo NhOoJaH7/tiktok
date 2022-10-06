@@ -1,0 +1,240 @@
+.main-container{
+  background-color: white;
+  padding-top: 40px;
+  padding-left: 90px;
+  z-index: 1010;
+
+}
+
+.tiktok-container{
+  display: flex;
+  align-items: top;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+}
+
+.profile-picture{
+  position: relative;
+  height: 50px;
+  transition: opacity 0.15s;
+}
+
+.profile-picture img{
+  width: 55px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.profile-picture:hover .overview{
+  opacity: 1;
+}
+
+.overview{
+  position: absolute;
+  left: -5px;
+  background-color: white;
+  width: 300px;
+  box-shadow: 0px 0px 17px rgba(0,0,0,0.15);
+  border-radius:8px ;
+  padding: 20px 20px 5px 20px;
+  opacity: 0;
+  transition: opacity 0.45s;
+  pointer-events: none;
+}
+
+.top-overview{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-overview img{
+  width: 45px;
+  height: 45px;
+}
+
+.top-overview button{
+  color: rgb(255, 85, 85); 
+  border: 1px solid rgb(255, 85, 85);
+  border-radius: 5px;
+  height: 36px;
+  width: 110px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.top-overview button:hover{
+  background-color: rgba(255, 1, 1, 0.042);
+}
+
+
+.middle-overview{
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.middle-overview h6{
+  margin-top: 14px;
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+
+.middle-overview p{
+  font-size: 14px;
+  font-weight: 60;
+  margin-top: 0;
+  margin-bottom: -6px;
+}
+
+.bottom-overview{
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.bottom-overview p{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.bottom-overview span{
+  font-weight: 100;
+  color: rgb(129, 129, 129);
+  margin-right: 10px;
+  margin-left: px;
+}
+
+.bottom2-overview p{
+  color: rgb(129, 129, 129);
+  font-size: 15px;
+}
+
+.tiktok-info{
+  margin-top: -8px;
+  margin-left: 12px;
+}
+
+.author{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  width: 630px;
+}
+
+.author p{
+  font-weight: 600;
+  cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+
+.author p:hover{
+  text-decoration: underline;
+}
+
+.author span{
+  color: rgb(75, 75, 75);
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 3px;
+  text-decoration: none;
+}
+
+.author span:hover{
+  text-decoration: none;
+}
+
+.author button{
+  color: rgb(255, 85, 85); 
+  border: 1px solid rgb(255, 85, 85);
+  border-radius: 5px;
+  height: 29px;
+  width: 90px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  margin-top: 20px;
+}
+
+.author button:hover{
+  background-color: rgba(255, 1, 1, 0.042);
+}
+
+.caption{
+  margin-top: -25px;
+  width: 500px;
+  margin-bottom: -8px;
+}
+
+.caption span{
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+
+.caption span:hover{
+  text-decoration: underline;
+}
+
+.sound{
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+
+.sound:hover{
+  text-decoration: underline;
+}
+
+
+.sound i{
+  margin-right: 2px;
+  font-size: 13px;
+}
+
+
+.content{
+  display: flex;
+}
+
+.content video{
+  width: 300px;
+  height: 530px;
+  border-radius: 12px;
+}
+
+.interactive-container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 312px;
+  margin-left: 20px;
+}
+
+.interactive-container div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.interactive-container p{
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(92, 92, 92);
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.interactive-container button{
+  border-radius: 30px;
+  border: none;
+  font-size: 22px;
+  padding: 10px 12px 10px 12px;
+  cursor: pointer;
+}

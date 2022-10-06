@@ -1,0 +1,197 @@
+
+.header-container{
+  background-color: white;
+  display: flex;
+  padding-left: 300px;
+  padding-right: 280px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  z-index: 10;
+}
+
+
+.left-section{
+  width: 130px;
+  background-color:lighcoral;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.middle-section{
+  display: flex;
+}
+.search{
+  background-color: rgb(240, 240, 240);
+  width: 350px;
+  height: 43px;
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 60;
+  border-radius: 30px;
+  border: none;
+  margin-left: -25px;
+  flex-shrink: ;
+}
+
+.search-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  width: 50px;
+  height: 43px;
+  font-size: 20px;
+  color: rgb(182, 182, 182);
+  margin-left:-50px ;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: re;
+  transition: background-color 0.15s;
+  
+}
+
+.search-button:hover{
+  background-color:rgba(227, 227, 227, 0.771) ;
+}
+
+.search-button:active{
+  background-color:rgba(227, 227, 227, 0.771) ;
+}
+
+
+.right-section{
+  display: flex;
+  justify-content: cente;
+  align-items: center;
+  background-color: lghtcoral;
+}
+
+.upload{
+  font-size: 16px;
+  background-color: white;
+  border-radius: 2px;
+  padding: 8px 18px 8px 18px;
+  border: 1px solid rgb(233, 233, 233);
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.upload:hover{
+  background-color: rgba(231, 231, 231, 0.419);
+}
+
+.upload i{
+  margin-right: 7px;
+}
+
+.message{
+  font-size: 20px;
+  background-color: white;
+  border-radius: 2px;
+  margin-left:5px ;
+  padding: 8px 18px 8px 18px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.message .tooltip1{
+  position: absolute;
+  bottom: -42px;
+  left: 4px;
+  background-color: rgba(81, 81, 81, 0.925);
+  color: white;
+  padding:11px 8px 11px 8px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  pointer-events: none;
+}
+.message:hover .tooltip1{
+  opacity: 1;
+}
+
+.user-profile{
+  background-color: white;
+  border: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.right-section img{
+  width: 36px;
+  border-radius: 30px;
+}
+
+.user-profile .tooltip2{
+  position: absolute;
+  bottom: -275px;
+  left: -170px;
+  background-color: white;
+  box-shadow: 0px 0px 14px rgba(0,0,0,0.25);
+  white-space: nowrap;
+  border-radius: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 220px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.65s;
+}
+
+.user-profile:hover .tooltip2{
+  opacity: 1;
+}
+
+
+
+.tool1{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  height: 42px;
+  white-space: nowrap;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.tool1:hover,.tool2:hover{
+  background-color: rgba(239, 239, 239, 0.701);
+}
+
+.tool1 i{
+  font-size: 19px;
+  margin-left: 22px;
+  margin-right: 10px;
+}
+
+.tool2{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  height: 42px;
+  white-space: nowrap;
+  border-top: 1px solid rgb(230, 230, 230);
+  transition: background-color 0.15s;
+  cursor: pointer;
+
+}
+
+.tool2 i{
+  font-size: 19px;
+  margin-left: 22px;
+  margin-right: 10px;
+}
