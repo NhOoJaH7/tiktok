@@ -154,6 +154,7 @@
 
 .user-profile:hover .tooltip2{
   opacity: 1;
+  pointer-events: auto;
 }
 
 
