@@ -32,6 +32,7 @@
 }
 
 .overview{
+  z-index: 5;
   position: absolute;
   left: -5px;
   background-color: white;
