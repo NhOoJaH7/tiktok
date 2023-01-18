@@ -28,6 +28,7 @@
 
 .profile-picture:hover .overview{
   opacity: 1;
+  pointer-events: auto;
 }
 
 .overview{
@@ -203,10 +204,23 @@
   display: flex;
 }
 
+.video-container{
+  position: relative;
+}
+
 .content video{
   width: 300px;
   height: 530px;
   border-radius: 12px;
+}
+
+.overview-link{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  background-color: rgba(255, 0, 0, 0);
 }
 
 .interactive-container{
